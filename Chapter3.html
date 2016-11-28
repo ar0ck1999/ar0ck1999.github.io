@@ -1,0 +1,384 @@
+<HTML>
+<HEAD>
+  <TITLE>Chapter 3.html</TITLE>
+  <meta NAME = "GENERATOR"          CONTENT = "IHMC CmapTools vr. 4.12 ">
+  <meta NAME = "KEYWORDS"           CONTENT = "Mattias Kent, Concept Map, cmap, CmapTools, IHMC, Chapter 3,  Protein Production,  Eucaryotic Cells,  Food Production,  Eukaryotic Cell Structure,  Liquid,  Gram Positive,  Uses of Bacteria in Biotechnology,  Mattias Kent BT 11/11/16,  Gram Negative,  Growth Media,  Solid,  Culturing Bacteria,  Bacterias,  Eukaryotes,  Stem Cells,  Uses of Eukaryotic Cells,  Microbiology and Cell Structure,  What is Microb Biology and Cell Structure,  Bacteria,  Fermentation">
+  <meta NAME = "DESCRIPTION"        CONTENT = "This Concept Map, created with IHMC CmapTools, has information related to: Chapter 3, Culturing Bacteria Can be Gram Positive, Uses of Eukaryotic Cells For Example Protein Production, Protein Production Utilizes Bacterias, Eucaryotic Cells Involve the Eukaryotic Cell Structure, Microbiology and Cell Structure Involves Bacteria, Eucaryotic Cells Involve the Uses of Eukaryotic Cells, Culturing Bacteria Created in a Growth Media, Uses of Bacteria in Biotechnology For example Protein Production, Uses of Bacteria in Biotechnology For example Food Production, Bacteria Consists of Culturing Bacteria, Protein Production Utilizes Eukaryotes, Microbiology and Cell Structure Involves Eucaryotic Cells, Culturing Bacteria Can be Gram Negative, Growth Media Comes in the form of Solid, Growth Media Comes in the form of Liquid, Uses of Eukaryotic Cells For Example, Bacteria Consists of Uses of Bacteria in Biotechnology, Uses of Eukaryotic Cells For Example Fermentation">
+  <meta NAME = "AUTHOR"             CONTENT = "IHMC CmapTools">
+  <meta HTTP-EQUIV = "Content-Type" CONTENT = "text/html; charset = UTF-8">
+  <script LANGUAGE="JavaScript1.2">
+  <!--
+    //  PopUp --
+    //  Institute for Human and Machine Cognition, http://www.ihmc.us/
+    //  CmapTools, Version 4.11, http://cmap.ihmc.us/
+    //  Modify by: CmapTools Developers, cmapsupport@ihmc.us
+    //  Date: 12/14/2006
+
+    var IE = 0;
+    var IE4PC = 0;
+    var NS = 0;
+    var GECKO = 0;
+
+    var openpopups = new Array();
+
+    if (document.all) {                 // Internet Explorer Detected
+	   IE = true;	
+    }
+    else if (document.layers) {         // Netscape Navigator Detected
+	   NS = true;	
+    }
+    else if (document.getElementById) { // Netscape 6 Detected
+       GECKO = true;
+    }
+    else {
+	   alert("Unrecognized Browser Detected::\nSorry, your browser is not compatible.");
+    }
+
+    if (IE)
+    {
+	   OS = navigator.platform;
+	   VER = new String(navigator.appVersion);
+	   VER = VER.substr (0, VER.indexOf(" "));
+	   if ((VER < 4.8) && (OS == "Win32")) 
+	   {
+	       IE4PC = 1;
+	   }
+    }
+
+    function handleResize() {
+	    location.reload();
+	    return false;
+    }
+
+
+    if ((NS) && (navigator.platform == "MacPPC")) {
+	   window.captureEvents (Event.RESIZE);
+	   window.onresize = handleResize;
+    }
+
+    function openResource(event, resourcePath, resourceName, resourceType)
+    {
+	   var newwindow;
+
+       // Resource MIMETypes are enumerated as follows: 
+       // cMap     = Undefined
+       // Image    = 0
+       // Video    = 1
+       // Text     = 2
+       // Audio    = 3
+
+       popDown();
+
+	   switch (resourceType) 
+	   {
+	    case 0:     //Image
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<center><img src=\"';
+                    text += resourcePath;
+                    text +='\"> </center>';
+             break;
+		
+	    case 1:  text   // Video
+		     newwindow = window.open (resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+                     var text ='<embed src=\"';
+                     text += resourcePath;
+                     text +='\" autostart=true> </embed> ';
+             break;
+
+	    case 2:      // Text or Unknown 
+		     newwindow = window.open(resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+              break;
+
+	    case 3:       // Audio
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<embed src=\"';
+                    text += resourcePath;
+                    text +='\" autoplay=true> </embed> ';
+             break;
+
+	    case 4:
+                    newwindow = window.open(resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+	     break;
+	    }
+        return;
+    }
+
+
+
+    function popUpEvt(event, popupName)
+    {
+	popDown();
+
+	if (GECKO)
+	{
+	    document.getElementById(popupName).style.left = event.layerX;
+	    document.getElementById(popupName).style.top = event.layerY;
+	    document.getElementById(popupName).style.background = "#B3B3B3";
+	    document.getElementById(popupName).style.visibility = "visible";
+	    openpopups.push(popupName);
+	}
+	else if (NS) 
+	{
+	    document.layers[popupName].moveTo (event.pageX, event.pageY);
+	    document.layers[popupName].bgColor = "#B3B3B3";
+	    document.layers[popupName].visibility = "show";
+	    openpopups.push(popupName);
+	}
+	else // if (IE)
+	{
+	    window.event.cancelBubble = true;
+	    if (!IE4PC) {
+		document.all[popupName].style.backgroundColor = "#B3B3B3";
+	    }	
+	    document.all[popupName].style.left = window.event.clientX + document.body.scrollLeft;
+	    document.all[popupName].style.top = window.event.clientY + document.body.scrollTop;
+	    document.all[popupName].style.visibility = "visible";
+	    openpopups[openpopups.length] = popupName;
+	}
+	return false;
+    }
+
+    function popDown()
+    {
+	var popupname;
+	
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+		document.getElementById(popupname).style.visibility = "hidden";
+	    }
+	    else if (NS) {
+		document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+		document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+	return;
+    }
+
+    function popDownNoGecko() 
+    {
+	var popupname;
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+           //  document.getElementById(popupname).style.visibility = "hidden"; 
+	        return;   // erased for test purposes
+	    }  
+	    else if (NS) {
+	        document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+	        document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+        return;
+    }
+  //-->
+  </script>
+</HEAD>
+<BODY bgcolor="#FFFFFF" leftmargin="0" topmargin="0">
+<noscript>
+  <table width=90% cellpadding=10>
+    <tr>
+      <td bgcolor=ff4447>
+        <font color=000000 size=+1 face="helvetica">
+        <h1>WARNING:</h1>
+        <b>JavaScript is turned OFF.  None of the links on this concept map will <br>
+           work until it is reactivated.
+          <p>
+            <a href="http://cmap.ihmc.us/docs/EnablingJavaScript.html">
+                            If you need help turning JavaScript On, click here.
+            </a>
+          </p>
+        </b>
+      </td>
+    </tr>
+  </table>
+This Concept Map, created with IHMC CmapTools, has information related to: Chapter 3, Culturing Bacteria Can be Gram Positive, Uses of Eukaryotic Cells For Example Protein Production, Protein Production Utilizes Bacterias, Eucaryotic Cells Involve the Eukaryotic Cell Structure, Microbiology and Cell Structure Involves Bacteria, Eucaryotic Cells Involve the Uses of Eukaryotic Cells, Culturing Bacteria Created in a Growth Media, Uses of Bacteria in Biotechnology For example Protein Production, Uses of Bacteria in Biotechnology For example Food Production, Bacteria Consists of Culturing Bacteria, Protein Production Utilizes Eukaryotes, Microbiology and Cell Structure Involves Eucaryotic Cells, Culturing Bacteria Can be Gram Negative, Growth Media Comes in the form of Solid, Growth Media Comes in the form of Liquid, Uses of Eukaryotic Cells For Example, Bacteria Consists of Uses of Bacteria in Biotechnology, Uses of Eukaryotic Cells For Example Fermentation
+
+</noscript>
+
+<map name="Chapter 3.html">
+  <area shape="rect"
+        href="1QRQHBTJKI273CJB6ID4Iimage"
+        onClick="popUpEvt(event,'1QRQHBTJKI273CJB6ID4Iimage'); return false;"
+        coords="591,1000,609,1018">
+  <area shape="rect"
+        href="1QS0FXMSRI1KP9V9BI9MCItextIhtml"
+        onClick="popUpEvt(event,'1QS0FXMSRI1KP9V9BI9MCItextIhtml'); return false;"
+        coords="383,780,401,798">
+  <area shape="rect"
+        href="1QS0FY025I4LWGQHI9N2ItextIhtml"
+        onClick="popUpEvt(event,'1QS0FY025I4LWGQHI9N2ItextIhtml'); return false;"
+        coords="249,780,267,798">
+  <area shape="rect"
+        href="1QRQJ9BJ3IKKM83BIHQIimage"
+        onClick="popUpEvt(event,'1QRQJ9BJ3IKKM83BIHQIimage'); return false;"
+        coords="75,782,93,800">
+  <area shape="rect"
+        href="1QRQKY1B0I8KZJH2I1FJIimage"
+        onClick="popUpEvt(event,'1QRQKY1B0I8KZJH2I1FJIimage'); return false;"
+        coords="1018,1251,1036,1269">
+  <area shape="rect"
+        href="1QSZL8Y0PI12WBR74I1PJItextIhtml"
+        onClick="popUpEvt(event,'1QSZL8Y0PI12WBR74I1PJItextIhtml'); return false;"
+        coords="858,696,876,714">
+  <area shape="rect"
+        href="1QSZL95F3I1MSPFFHI1PYItextIhtml"
+        onClick="popUpEvt(event,'1QSZL95F3I1MSPFFHI1PYItextIhtml'); return false;"
+        coords="734,738,752,756">
+  <area shape="rect"
+        href="1QRBF5XB7I22RQ5QCI20RIimage"
+        onClick="popUpEvt(event,'1QRBF5XB7I22RQ5QCI20RIimage'); return false;"
+        coords="355,343,373,361">
+</map>
+
+<center>
+  <table width=* height=* cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td valign=center align=center>
+        <img USEMAP="#Chapter 3.html"
+             SRC="Chapter 3.jpg"
+             ALIGN=middle
+             BORDER=0
+             onClick=popDown();>
+      </td>
+    </tr>
+    <tr>
+      <td VALIGN=top ALIGN=right>
+        <table>
+          <tr>
+            <td ALIGN=right VALIGN=middle>
+              <map NAME="CmapToolsTrademark">
+                <area SHAPE="rect"
+                      href="http://cmap.ihmc.us/"
+                      onClick="openResource(event,'http://cmap.ihmc.us/', 0, 2); return false;"
+                      coords="1,1,210,50">
+              </map>
+            </td>
+          </tr>
+          <tr>
+            <td  ALIGN=right VALIGN=middle>
+              <img USEMAP="#CmapToolsTrademark"
+                   SRC="CmapToolsTrademark.gif" 
+                   ALT="IHMC Cmap Tools Trademark" width="210" height="50"
+                   ALIGN=middle
+                   BORDER=0>
+            </td>
+            <td VALIGN=middle>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</center>
+</BODY>
+</HTML>
+<div id="1QRQHBTJKI273CJB6ID4Iimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="image.jpg "TITLE="">
+      image
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QS0FXMSRI1KP9V9BI9MCItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://docs.google.com/spreadsheets/d/1bJitIHY3GkTLeBmBXsxikQV6nnCnmXdDZpS_thRubHY/edit#gid=0 "TITLE="">
+      Gram Positive
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QS0FY025I4LWGQHI9N2ItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://docs.google.com/spreadsheets/d/1bJitIHY3GkTLeBmBXsxikQV6nnCnmXdDZpS_thRubHY/edit#gid=1335419540 "TITLE="">
+      Gram Negative
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QRQJ9BJ3IKKM83BIHQIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="image.jpg "TITLE="">
+      image
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QRQKY1B0I8KZJH2I1FJIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="image.jpg "TITLE="">
+      image
+      </a>
+      </td>
+    </tr>
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="image.jpg "TITLE="">
+      image
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QSZL8Y0PI12WBR74I1PJItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://docs.google.com/spreadsheets/d/1bJitIHY3GkTLeBmBXsxikQV6nnCnmXdDZpS_thRubHY/edit#gid=731611333 "TITLE="">
+      Bacteria
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QSZL95F3I1MSPFFHI1PYItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://docs.google.com/spreadsheets/d/1bJitIHY3GkTLeBmBXsxikQV6nnCnmXdDZpS_thRubHY/edit#gid=174794890 "TITLE="">
+      Eukaryote
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QRBF5XB7I22RQ5QCI20RIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="image.jpg "TITLE="">
+      image
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
